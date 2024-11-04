@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/jQuery214.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>PAÑALERA MI BEBE</title>
+</head>
+<body>
+    <div class="login-container">
+        <div id="titulo2" class="titulo2">
+            <h2>INICIO DE SESIÓN</h2>
+        </div>
+        <form action="validaIngreso.php" method="POST" class="form-container">
+            <label class="label-login" for="usuario">Usuario</label>
+            <input class="input-login" type="text" id="usuario" name="usuario">
+            
+            <label class="label-login" for="pass">Contraseña</label>
+            <input class="input-login" type="password" id="pass" name="pass">
+            
+            <input type="hidden" id="whoLlama" name="whoLlama" value="logueo.php">
+            <button class="btn-login" id="btnIngresar" type="submit" value="INGRESAR">INGRESAR</button>
+        </form>
+        <p id="comentarios">Sesión cerrada</p>
+    </div>
+</body>
+</html>
